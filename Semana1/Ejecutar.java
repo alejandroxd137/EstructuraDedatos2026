@@ -18,9 +18,12 @@ public class Ejecutar {
 
          int[] b = new int[11];
 
+         int min = 1;
+         int max = 100;
+
          for (int i = 0; i < a.length; i++) {
-             b[i] (Math.radom( ) * (max - min - 1) + min );
-         }
-    }
+             b[i] = (int) (Math.random() * (max - min + 1) + min);
+         }   
+    }             
 
 }
